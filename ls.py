@@ -56,7 +56,7 @@ class Cafe:
                                 guest.start()
                         break
             flag = False
-            for table in tables:
+            for table in self.tables:
                 if not table.guest is None:
                     flag = True
                     break
